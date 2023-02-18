@@ -1,0 +1,16 @@
+{
+    "description": "Projeto de PHP",
+    "authors": [
+        {
+            "name": "Renato Lopes"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\": "app",
+            "Sts\\": "app/sts"
+        }
+    },
+    "require": {}
+}
