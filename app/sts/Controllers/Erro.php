@@ -2,10 +2,10 @@
 
 namespace Sts\Controllers;
 
-class Home
+class Erro
 {
     public function index()
     {
         echo "Pagina erro";
     }
-}
+}   
