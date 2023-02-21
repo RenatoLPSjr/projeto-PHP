@@ -2,6 +2,11 @@
 
 namespace Core;
 
+if(!defined('C7E3L8K9E5')){
+    header("Location: /");
+    die("Erro: Pagina nao encontrada");
+}
+
 class ConfigController extends Config
 {
     private string $url;

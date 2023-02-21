@@ -2,14 +2,13 @@
 
 namespace Sts\Controllers;
 
-class Home
+class Empresa
 {
     private array | string | null $data;
-
     public function index()
     {
         $this->data = [];
-        $loadView = new \Core\ConfigView("sts/Views/home/home", $this->data);
+        $loadView = new \Core\ConfigView("sts/Views/empresa/empresa", $this->data);
         $loadView->loadView();
     }
 }
