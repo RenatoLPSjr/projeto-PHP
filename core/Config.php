@@ -18,5 +18,13 @@ abstract class Config
         define('CONTROLLERERRO', 'Erro');
 
         define('EMAILADM', 'renato.lps.jr@gmail.com');   
+
+        //Credencias banco de Dados
+
+        define('HOST', 'localhost');
+        define('USER', 'root');
+        define('PASS', '');
+        define('DBNAME', 'teste');
+        define('PORT', 3306);
     }
 }
